@@ -20,3 +20,26 @@ C:\Users\Andris\OneDrive - Óbudai egyetem\Asztal\HSZF_FF_CarsSharing\IPE1D0_HSZ
 C:\Users\Andris\OneDrive - Óbudai egyetem\Asztal\HSZF_FF_CarsSharing\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\refint\IPE1D0_HSZF_2024251.Test.dll
 C:\Users\Andris\OneDrive - Óbudai egyetem\Asztal\HSZF_FF_CarsSharing\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.pdb
 C:\Users\Andris\OneDrive - Óbudai egyetem\Asztal\HSZF_FF_CarsSharing\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\ref\IPE1D0_HSZF_2024251.Test.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\cars.xml
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\customers.xml
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\trips.xml
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Test.deps.json
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Test.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Test.pdb
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Application.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Model.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Persistence.MsSql.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Application.pdb
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Model.pdb
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\bin\Debug\net8.0\IPE1D0_HSZF_2024251.Persistence.MsSql.pdb
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.csproj.AssemblyReference.cache
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.AssemblyInfoInputs.cache
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.AssemblyInfo.cs
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.csproj.CoreCompileInputs.cache
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.sourcelink.json
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_H.7B31ABA9.Up2Date
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\refint\IPE1D0_HSZF_2024251.Test.dll
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\IPE1D0_HSZF_2024251.Test.pdb
+C:\Users\Strix\OneDrive - Eotvos Lorand Tudomanyegyetem\Asztal\kiskatsa\IPE1D0_HSZF_2024251\IPE1D0_HSZF_2024251.Test\obj\Debug\net8.0\ref\IPE1D0_HSZF_2024251.Test.dll

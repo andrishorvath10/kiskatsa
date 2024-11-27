@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace IPE1D0_HSZF_2024251.Model
@@ -12,9 +7,12 @@ namespace IPE1D0_HSZF_2024251.Model
     [XmlRoot("Car")]
     public class Car
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [XmlElement("Id")]
         public int Id { get; set; }
 
+        [Required]
         [XmlElement("Model")]
         public string Model { get; set; } = string.Empty;
 

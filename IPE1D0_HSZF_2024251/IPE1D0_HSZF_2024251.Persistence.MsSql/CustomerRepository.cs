@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using IPE1D0_HSZF_2024251.Model;
 using Microsoft.EntityFrameworkCore;
@@ -12,33 +10,49 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
     {
         private readonly CarsharingDbContext _dbContext;
 
-        public CustomerRepository(CarsharingDbContext carsharingDb)
+        public CustomerRepository(CarsharingDbContext dbContext)
         {
-            _dbContext = carsharingDb;
+            _dbContext = dbContext;
         }
 
-        public void AddCustomers(IEnumerable<Customer> customers)
+        public async Task AddCustomersAsync(IEnumerable<Customer> customers)
         {
-            using (var transaction = _dbContext.Database.BeginTransaction())
+            using (var transaction = await _dbContext.Database.BeginTransactionAsync())
             {
                 try
                 {
-                    // Engedélyezd az IDENTITY_INSERT-et a Customer táblán
-                    _dbContext.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Customer ON");
+                    // Enable IDENTITY_INSERT for the Customer table
+                    await _dbContext.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT customer ON");
 
-                    // Adatok beszúrása
-                    _dbContext.customer.AddRange(customers);
-                    _dbContext.SaveChanges();
+                    foreach (var customer in customers)
+                    {
+                        var existingCustomer = await _dbContext.Customer.FindAsync(customer.Id);
 
-                    // Kapcsold ki az IDENTITY_INSERT-et
-                    _dbContext.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Customer OFF");
+                        if (existingCustomer != null)
+                        {
+                            // Update existing record
+                            existingCustomer.Name = customer.Name;
+                            existingCustomer.Balance = customer.Balance;
+                            _dbContext.Customer.Update(existingCustomer);
+                        }
+                        else
+                        {
+                            // Add new record
+                            await _dbContext.Customer.AddAsync(customer);
+                        }
+                    }
 
-                    transaction.Commit();
+                    await _dbContext.SaveChangesAsync();
+
+                    // Disable IDENTITY_INSERT
+                    await _dbContext.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT customer OFF");
+
+                    await transaction.CommitAsync();
                 }
                 catch
                 {
-                    transaction.Rollback();
-                    throw; // Újradobja a hibát
+                    await transaction.RollbackAsync();
+                    throw;
                 }
             }
         }

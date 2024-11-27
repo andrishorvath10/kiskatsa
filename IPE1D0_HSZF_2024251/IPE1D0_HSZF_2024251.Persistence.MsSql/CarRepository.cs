@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using IPE1D0_HSZF_2024251.Model;
 using Microsoft.EntityFrameworkCore;
@@ -10,43 +9,52 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
 {
     public class CarRepository : ICarRepository
     {
-        private readonly CarsharingDbContext? _context;
+        private readonly CarsharingDbContext _context;
+
         public CarRepository(CarsharingDbContext context)
         {
             _context = context;
         }
-        public void AddCars(IEnumerable<Car> cars)
+        public async Task<List<Car>> GetAllCarsAsync()
         {
-            using (var transaction = _context.Database.BeginTransaction())
+            return await _context.Cars.ToListAsync();
+        }
+
+        public async Task AddCarsAsync(IEnumerable<Car> cars)
+        {
+            using (var transaction = await _context.Database.BeginTransactionAsync())
             {
                 try
                 {
-                    // allow IDENTITY_INSERT
-                    _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Cars ON");
+                    await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Cars ON");
 
                     foreach (var car in cars)
                     {
-                        // Ellenőrizd, hogy létezik-e már a rekord
-                        if (_context.cars.Any(c => c.Id == car.Id))
+                        var existingCar = await _context.Cars.FindAsync(car.Id);
+
+                        if (existingCar != null)
                         {
-                            Console.WriteLine($"Car with Id {car.Id} already exists. Skipping...");
-                            continue;
+                            existingCar.Model = car.Model;
+                            existingCar.TotalDistance = car.TotalDistance;
+                            existingCar.DistanceSinceLastMaintenance = car.DistanceSinceLastMaintenance;
+                            _context.Cars.Update(existingCar);
                         }
-
-                        _context.cars.Add(car);
+                        else
+                        {
+                            await _context.Cars.AddAsync(car);
+                        }
                     }
-                    
-                    _context.SaveChanges();
 
-                    
-                    _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Cars OFF");
+                    await _context.SaveChangesAsync();
 
-                    transaction.Commit();
+                    await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Cars OFF");
+
+                    await transaction.CommitAsync();
                 }
                 catch
                 {
-                    transaction.Rollback();
-                    throw; // Újradobja a hibát, ha a művelet sikertelen
+                    await transaction.RollbackAsync();
+                    throw;
                 }
             }
         }

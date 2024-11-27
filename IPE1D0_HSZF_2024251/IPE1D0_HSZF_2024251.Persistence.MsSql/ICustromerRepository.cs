@@ -9,6 +9,6 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
 {
     public interface ICustomerRepository
     {
-        void AddCustomers(IEnumerable<Customer> customers);
+        Task AddCustomersAsync(IEnumerable<Customer> customers);
     }
 }

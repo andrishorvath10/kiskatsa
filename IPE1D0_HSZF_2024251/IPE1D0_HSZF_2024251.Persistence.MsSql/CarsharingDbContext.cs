@@ -13,11 +13,28 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
         public CarsharingDbContext(DbContextOptions<CarsharingDbContext> options) : base(options) { }
         public CarsharingDbContext()
         {
-            Database.EnsureCreated();
+            Database.Migrate();
         }
-        public DbSet<Car> cars { get; set; }
-        public DbSet<Customer> customer { get; set; }
-        public DbSet <Trip> trip { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<Customer> Customer { get; set; }
+        public DbSet <Trip> Trip { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Trip>()
+                .ToTable("trip") 
+                .HasKey(t => t.Id);
+
+            modelBuilder.Entity<Trip>()
+                .HasOne<Car>()
+                .WithMany()
+                .HasForeignKey(t => t.CarId);
+
+            modelBuilder.Entity<Trip>()
+                .HasOne<Customer>()
+                .WithMany()
+                .HasForeignKey(t => t.CustomerId);
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

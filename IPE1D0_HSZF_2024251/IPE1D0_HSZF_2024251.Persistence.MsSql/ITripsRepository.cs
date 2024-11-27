@@ -9,6 +9,7 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
 {
     public interface ITripsRepository
     {
-        void AddTrips(IEnumerable<Trip> trips);
+        Task<List<Trip>> GetAllTripAsync();
+        Task AddTripsAsync(IEnumerable<Trip> trips);
     }
 }

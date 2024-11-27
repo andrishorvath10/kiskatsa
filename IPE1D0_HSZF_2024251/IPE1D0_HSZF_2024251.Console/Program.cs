@@ -2,15 +2,14 @@
 using IPE1D0_HSZF_2024251.Application;
 using IPE1D0_HSZF_2024251.Persistence.MsSql;
 using Microsoft.Extensions.DependencyInjection;
-using static System.Formats.Asn1.AsnWriter;
 
 namespace IPE1D0_HSZF_2024251.Console
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            /*var serviceprovider = new ServiceCollection()
+            var serviceProvider = new ServiceCollection()
                 .AddDbContext<CarsharingDbContext>()
                 .AddScoped<ICarRepository, CarRepository>()
                 .AddScoped<ICustomerRepository, CustomerRepository>()
@@ -18,34 +17,15 @@ namespace IPE1D0_HSZF_2024251.Console
                 .AddScoped<XmlDataLoader>()
                 .BuildServiceProvider();
 
-            using (var scope = serviceprovider.CreateScope()) 
-            {
-                var dataloader = scope.ServiceProvider.GetRequiredService<XmlDataLoader>();
-                dataloader.LoadDatasFromXml();
-            }*/
-            var dbContext = new CarsharingDbContext();
-
-            // XML fájlok helye
             string carsXmlPath = "cars.xml";
             string customersXmlPath = "customers.xml";
             string tripsXmlPath = "trips.xml";
 
-            // Adatok beolvasása XML-ből
-            var cars = XmlImporter.LoadCarsFromXml(carsXmlPath);
-            var customers = XmlImporter.LoadCustomersFromXml(customersXmlPath);
-            var trips = XmlImporter.LoadTripsFromXml(tripsXmlPath);
-
-            // Adatok feltöltése az adatbázisba
-            dbContext.cars.AddRange(cars);
-            dbContext.customer.AddRange(customers);
-            dbContext.trip.AddRange(trips);
-            dbContext.SaveChanges();
-
-            
-
-
+            using (var scope = serviceProvider.CreateScope())
+            {
+                var dataLoader = scope.ServiceProvider.GetRequiredService<XmlDataLoader>();
+                await dataLoader.LoadDatasFromXml(carsXmlPath, customersXmlPath, tripsXmlPath);
+            }
         }
-        
-       
     }
 }

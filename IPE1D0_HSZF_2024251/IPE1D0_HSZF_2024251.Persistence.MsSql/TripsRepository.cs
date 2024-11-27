@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Castle.Core.Resource;
 using IPE1D0_HSZF_2024251.Model;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,35 +10,56 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
     {
         private readonly CarsharingDbContext _context;
 
-        public TripsRepository(CarsharingDbContext carsharingDbContext)
+        public TripsRepository(CarsharingDbContext context)
         {
-            _context = carsharingDbContext;
+            _context = context;
         }
 
-        public void AddTrips(IEnumerable<Trip> trips)
+        public async Task<List<Trip>> GetAllTripAsync()
         {
-            using (var transaction = _context.Database.BeginTransaction())
+            return await _context.Trip.ToListAsync();
+        }
+
+        public async Task AddTripsAsync(IEnumerable<Trip> trips)
+        {
+            using (var transaction = await _context.Database.BeginTransactionAsync())
             {
                 try
                 {
-                    // Engedélyezd az IDENTITY_INSERT-et a Customer táblán
-                    _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Customer ON");
+                    await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Trip ON");
 
-                    // Adatok beszúrása
-                    _context.trip.AddRange(trips);
-                    _context.SaveChanges();
+                    foreach (var trip in trips)
+                    {
+                        var existingTrip = await _context.Trip.FindAsync(trip.Id);
 
-                    // Kapcsold ki az IDENTITY_INSERT-et
-                    _context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT Customer OFF");
+                        if (existingTrip != null)
+                        {
+                            existingTrip.CarId = trip.CarId;
+                            existingTrip.CustomerId = trip.CustomerId;
+                            existingTrip.Distance = trip.Distance;
+                            existingTrip.Cost = trip.Cost;
+                            _context.Trip.Update(existingTrip);
+                        }
+                        else
+                        {
+                            await _context.Trip.AddAsync(trip);
+                        }
+                    }
 
-                    transaction.Commit();
+                    await _context.SaveChangesAsync();
+
+                    await _context.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT Trip OFF");
+
+                    await transaction.CommitAsync();
                 }
                 catch
                 {
-                    transaction.Rollback();
-                    throw; // Újradobja a hibát
+                    await transaction.RollbackAsync();
+                    throw;
                 }
             }
         }
+
     }
 }
+

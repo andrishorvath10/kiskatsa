@@ -9,6 +9,7 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
 {
     public interface ICarRepository
     {
-        void AddCars(IEnumerable<Car> cars);
+        Task<List<Car>> GetAllCarsAsync();
+        Task AddCarsAsync(IEnumerable<Car> cars);
     }
 }
