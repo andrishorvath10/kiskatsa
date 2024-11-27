@@ -19,7 +19,7 @@ namespace IPE1D0_HSZF_2024251.Model
         [XmlElement("TotalDistance")]
         public float TotalDistance { get; set; }
 
-        [XmlElement("DistanceSinceLastMaintenance")]
+        [XmlElement("DistanceSinceLastMaintenance")]    
         public float DistanceSinceLastMaintenance { get; set; }
     }
 }

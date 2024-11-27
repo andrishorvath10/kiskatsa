@@ -30,7 +30,6 @@ namespace IPE1D0_HSZF_2024251.Application
                 await _customerRepository.AddCustomersAsync(customers);
                 await _tripsRepository.AddTripsAsync(trips);
 
-                /*
                 Console.WriteLine("Cars uploaded to the database:");
                 foreach (var car in await _carRepository.GetAllCarsAsync())
                 {
@@ -42,7 +41,6 @@ namespace IPE1D0_HSZF_2024251.Application
                 {
                     Console.WriteLine($"ID: {trip.Id}, Car ID: {trip.CarId}, Customer ID: {trip.CustomerId}, Distance: {trip.Distance}, Cost: {trip.Cost}");
                 }
-                */
             }
             catch (Exception ex)
             {
