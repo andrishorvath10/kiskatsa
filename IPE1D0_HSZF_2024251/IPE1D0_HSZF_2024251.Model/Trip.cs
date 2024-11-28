@@ -27,5 +27,18 @@ namespace IPE1D0_HSZF_2024251.Model
 
         [XmlElement("Cost")]
         public float Cost { get; set; }
+
+        public event EventHandler<string> OnInsufficientBalance;
+        public event EventHandler<string> OnTripCompleted;
+
+        public void NotifyInsufficientBalance(string message)
+        {
+            OnInsufficientBalance?.Invoke(this, message);
+        }
+
+        public void NotifyTripCompleted(string message)
+        {
+            OnTripCompleted?.Invoke(this, message);
+        }
     }
 }

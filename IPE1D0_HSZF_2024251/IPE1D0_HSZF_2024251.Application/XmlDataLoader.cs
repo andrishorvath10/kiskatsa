@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using IPE1D0_HSZF_2024251.Persistence.MsSql;
+using IPE1D0_HSZF_2024251.Persistence.MsSql.Interfaces;
 
 namespace IPE1D0_HSZF_2024251.Application
 {
@@ -37,7 +38,7 @@ namespace IPE1D0_HSZF_2024251.Application
                 }
 
                 Console.WriteLine("\nTrips uploaded to the database:");
-                foreach (var trip in await _tripsRepository.GetAllTripAsync())
+                foreach (var trip in await _tripsRepository.GetAllTripsAsync())
                 {
                     Console.WriteLine($"ID: {trip.Id}, Car ID: {trip.CarId}, Customer ID: {trip.CustomerId}, Distance: {trip.Distance}, Cost: {trip.Cost}");
                 }

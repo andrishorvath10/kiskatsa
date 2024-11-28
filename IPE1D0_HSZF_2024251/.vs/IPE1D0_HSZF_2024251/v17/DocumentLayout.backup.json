@@ -3,66 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\xmlimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\xmlimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\tripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\tripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.trip.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\itripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\itripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\tripmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\tripmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\icustromerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\icustromerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\interfaces\\icustromerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\interfaces\\icustromerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\carsharingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\carsharingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\tripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\tripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.model\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|solutionrelative:ipe1d0_hszf_2024251.model\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|solutionrelative:ipe1d0_hszf_2024251.model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.model\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|solutionrelative:ipe1d0_hszf_2024251.model\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\interfaces\\itripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\interfaces\\itripsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8351AD3E-0D14-4817-AA28-E44EC7768CFB}|IPE1D0_HSZF_2024251.Application\\IPE1D0_HSZF_2024251.Application.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.application\\xmldataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8351AD3E-0D14-4817-AA28-E44EC7768CFB}|IPE1D0_HSZF_2024251.Application\\IPE1D0_HSZF_2024251.Application.csproj|solutionrelative:ipe1d0_hszf_2024251.application\\xmldataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.model\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5FAE0E-BBA5-4793-AB94-9E664149808A}|IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj|solutionrelative:ipe1d0_hszf_2024251.model\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0CA79C1-0580-459F-B79F-75EDE12F906D}|IPE1D0_HSZF_2024251.Console\\IPE1D0_HSZF_2024251.Console.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CA79C1-0580-459F-B79F-75EDE12F906D}|IPE1D0_HSZF_2024251.Console\\IPE1D0_HSZF_2024251.Console.csproj|solutionrelative:ipe1d0_hszf_2024251.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\customers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\customers.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\eventargs\\tripevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\eventargs\\tripevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.trip.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|c:\\users\\strix\\onedrive - eotvos lorand tudomanyegyetem\\asztal\\kiskatsa\\ipe1d0_hszf_2024251\\ipe1d0_hszf_2024251.persistence.mssql\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B57C233-0DEB-40E3-A467-95CA0E5C480F}|IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj|solutionrelative:ipe1d0_hszf_2024251.persistence.mssql\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,206 +60,170 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICustromerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\ICustromerRepository.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\ICustromerRepository.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\ICustromerRepository.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\ICustromerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:30:57.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Trip.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Trip.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Model\\Trip.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Trip.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Model\\Trip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:27:41.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Customer.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Model\\Customer.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Customer.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Model\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:27:40.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:08:36.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TripsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:08:25.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:55:20.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITripsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\ITripsRepository.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\ITripsRepository.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\ITripsRepository.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\ITripsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:16:50.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "XmlDataLoader.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:17:37.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarsharingDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CarsharingDbContext.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CarsharingDbContext.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CarsharingDbContext.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CarsharingDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:52:41.537Z",
+              "Title": "dbo.trip [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.trip.sql",
+              "ToolTip": "dbo.trip [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-28T01:55:23.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "XmlImporter.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\XmlImporter.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\XmlImporter.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\XmlImporter.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\XmlImporter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Title": "dbo.customer [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.customer.sql",
+              "ToolTip": "dbo.customer [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-28T01:53:00.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TripManager.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\TripManager.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\TripManager.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\TripManager.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\TripManager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T21:17:16.559Z",
+              "WhenOpened": "2024-11-28T01:36:50.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TripEvents.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\EventArgs\\TripEvents.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\EventArgs\\TripEvents.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\EventArgs\\TripEvents.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\EventArgs\\TripEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:35:56.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Car.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Model\\Car.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Car.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Model\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T20:02:22.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "customers.xml",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\customers.xml",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\customers.xml",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\customers.xml",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\customers.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-11-27T19:42:51.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Console\\Program.cs",
               "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Console\\Program.cs",
               "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Console\\Program.cs",
               "RelativeToolTip": "IPE1D0_HSZF_2024251.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAewCsBAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:43:44.604Z",
+              "WhenOpened": "2024-11-28T00:19:24.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Trip.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Model\\Trip.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\Trip.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Model\\Trip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:32:33.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TripsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\TripsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:41:17.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "XmlDataLoader.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Application\\XmlDataLoader.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAewCgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:07:33.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustromerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICustromerRepository.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICustromerRepository.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICustromerRepository.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICustromerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:38:48.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITripsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ITripsRepository.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ITripsRepository.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ITripsRepository.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ITripsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:39:01.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ICarRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\ICarRepository.cs",
-              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\ICarRepository.cs",
-              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\ICarRepository.cs",
-              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\ICarRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAIAAAAAAAAAA==",
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CustomerRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswH8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:42:55.187Z",
+              "WhenOpened": "2024-11-28T00:39:24.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "dbo.customer.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.customer.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.customer.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-27T00:32:04.815Z"
+              "DocumentIndex": 6,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICarRepository.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\Interfaces\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:16:34.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "dbo.trip.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.trip.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CarSharingDb/True/SqlTable/dbo.trip.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-27T00:32:02.587Z"
+              "DocumentIndex": 12,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
+              "RelativeDocumentMoniker": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
+              "RelativeToolTip": "IPE1D0_HSZF_2024251.Persistence.MsSql\\CarRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T00:18:43.301Z",
+              "EditorCaption": ""
             }
           ]
         }
