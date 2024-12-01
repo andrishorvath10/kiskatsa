@@ -2976,23 +2976,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Strix\\.nuget\\packages\\": {},
+    "C:\\Users\\Andris\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\IPE1D0_HSZF_2024251.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\IPE1D0_HSZF_2024251.Application.csproj",
       "projectName": "IPE1D0_HSZF_2024251.Application",
-      "projectPath": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\IPE1D0_HSZF_2024251.Application.csproj",
-      "packagesPath": "C:\\Users\\Strix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\obj\\",
+      "projectPath": "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\IPE1D0_HSZF_2024251.Application.csproj",
+      "packagesPath": "C:\\Users\\Andris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Strix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3001,18 +3001,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj": {
-              "projectPath": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj"
+            "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj": {
+              "projectPath": "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Model\\IPE1D0_HSZF_2024251.Model.csproj"
             },
-            "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj": {
-              "projectPath": "C:\\Users\\Strix\\OneDrive - Eotvos Lorand Tudomanyegyetem\\Asztal\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj"
+            "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj": {
+              "projectPath": "C:\\Users\\Andris\\OneDrive - Óbudai egyetem\\Asztal\\Githubbuxie\\kiskatsa\\IPE1D0_HSZF_2024251\\IPE1D0_HSZF_2024251.Persistence.MsSql\\IPE1D0_HSZF_2024251.Persistence.MsSql.csproj"
             }
           }
         }

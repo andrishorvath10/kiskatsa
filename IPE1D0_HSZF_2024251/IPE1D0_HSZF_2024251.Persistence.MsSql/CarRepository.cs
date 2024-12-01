@@ -113,5 +113,15 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
         {
             return await _context.Cars.MaxAsync(c => (int?)c.Id) ?? 0;
         }
+
+        public Task<Car> GetCarbyMostDistanceAsync()
+        {
+            return  _context.Cars.OrderByDescending(c => c.TotalDistance).FirstOrDefaultAsync();
+        }
+
+        public float AvgDistanceFromCars()
+        {
+            return _context.Cars.Average(c => c.TotalDistance);
+        }
     }
 }

@@ -17,6 +17,8 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql.Interfaces
         
         Task DeleteCarAsync(int id);
         Task AddCarWithCustomIdAsync(Car car);
+        Task<Car> GetCarbyMostDistanceAsync();
+        
 
     }
 }

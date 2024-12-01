@@ -26,7 +26,7 @@ using (var scope = serviceProvider.CreateScope())
 var carRepository = serviceProvider.GetService<ICarRepository>();
 var customerRepository = serviceProvider.GetService<ICustomerRepository>();
 var tripRepository = serviceProvider.GetService<ITripsRepository>();
-
+var queries = new Queries(carRepository, customerRepository, tripRepository);
 
 //Also could add validation for trips if the carId and customerId exists    
 int choice;
@@ -35,6 +35,7 @@ do
     Console.WriteLine("1. Modify Cars");
     Console.WriteLine("2. Modify Customers");
     Console.WriteLine("3. Modify Trips");
+    Console.WriteLine("4. Show Queries");
     Console.WriteLine("0. Exit");
 
 
@@ -272,12 +273,51 @@ do
                     break;
             }
             break;
-        default:
+        
+        case 4:
+            Console.WriteLine("Query Management System");
+            Console.WriteLine("1. Show the car with the most Distance");
+            Console.WriteLine("2. Top 10 Most paid Customer");
+            Console.WriteLine("3. Average Running of the Cars");
+
+            int qurieschoice=int.Parse(Console.ReadLine());
+            switch(qurieschoice)
+            {
+                case 1:
+                    var car = queries.CarWithTheMostDistance();
+                    Console.WriteLine($"The car with the most Distance: Id: {car.Id}, Model: {car.Model}, Distance: {car.TotalDistance}");
+                    Console.WriteLine();
+                    break;
+                case 2:
+                    var showlist = queries.Top10Customer();
+                    foreach (var item in showlist)
+                    {
+                        Console.WriteLine($"The top 10 Customer who paid the most amount Name: {item.Name}, {item.Balance} ");
+                    }
+
+                    break;
+                case 3:
+                    var avgDistanceCars = queries.GetAverageDistanceByModel();
+                    Console.WriteLine("Average Distance by Cars:");
+                    if ( avgDistanceCars!= null)
+                    {
+                        foreach (var item in avgDistanceCars)
+                        {
+                            Console.WriteLine($"Model: {item.Model}, Average Distance: {item.TotalDistance} km");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No datas found.");
+                    }
+
+                    break;
+                
+            }                
             Console.WriteLine("Invalid choice.");
             break;
     }
 } while (choice != 0);
-
 
 
 var tripManager = new TripManager(customerRepository, tripRepository);
