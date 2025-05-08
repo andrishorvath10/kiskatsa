@@ -13,11 +13,11 @@
     public class Cellindex
     {
         public int Row { get; set; }
-        public int Cell { get; set; }
-        public Cellindex(int row, int cell)
+        public int Col { get; set; }
+        public Cellindex(int row, int col)
         {
             Row = row;
-            Cell = cell;
+            Col = col;
         }
     }
 }
