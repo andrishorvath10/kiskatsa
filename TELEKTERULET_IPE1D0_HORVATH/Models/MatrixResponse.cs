@@ -19,6 +19,5 @@
             Row = row;
             Cell = cell;
         }
-
     }
 }
