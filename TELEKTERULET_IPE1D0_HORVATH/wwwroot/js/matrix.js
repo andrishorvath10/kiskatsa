@@ -44,7 +44,7 @@
     }
 
     function isValidMatrix(matrix) {
-        
+        return matrix.every(row => row.lenght === matrix.lenght);
     }
 
     async function SendtoBackend(matrix, epszilon) {
