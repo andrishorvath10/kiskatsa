@@ -74,10 +74,35 @@
         displayMatrix(result.matrix, result.largestareaindexes);
     }
 
-    function displayMatrix(matrix, largestareaindexes) {
+    function displayMatrix(matrix, largestareaindexes)
+    {
+        const tableHtml = document.createElement('table');
+        
 
+        const areaMap = {};
+        largestareaindexes.forEach(index => {
+            areaMap[`${ index.row },${ index.col }`] = true;
+        });
+
+        for (let i = 0; i < matrix.length; i++)
+        {
+            const row = document.createElement('tr');
+
+            for (let j = 0; j < matrix[i].length; j++)
+            {
+                const cell = document.createElement('td');
+                cell.textContent = matrix[i][j];
+
+                if (areaMap[`${ i },${ j }`])
+                {
+                    cell.classList.add('largest-area');
+                }
+
+                row.appendChild(cell);
+            }
+                tableHtml.appendChild(row);
+        }
+        matrixvisualization.innerHTML = '';
+        matrixvisualization.appendChild(tableHtml);
     }
-
-
-
 });
