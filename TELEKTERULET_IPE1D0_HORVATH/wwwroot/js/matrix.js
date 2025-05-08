@@ -32,7 +32,15 @@
         }
     });
     function parseMatrixInput(input) {
-        
+        const rows = input.split("\n").filter(row => row.trim() !== "");
+        const matrix = rows.map(row => {
+            const values = row.split("/\s+/").map(value => parseInt(value.trim()));
+            if (values.some(isNaN)) {
+                throw new Error("Invalid matrix format.");
+            }
+            return values;
+        });
+        return matrix;
     }
 
     function isValidMatrix(matrix) {
