@@ -1,3 +1,5 @@
+using TELEKTERULET_IPE1D0_HORVATH.Controllers;
+using TELEKTERULET_IPE1D0_HORVATH.Service;
 namespace TELEKTERULET_IPE1D0_HORVATH
 {
     public class Program
@@ -8,7 +10,7 @@ namespace TELEKTERULET_IPE1D0_HORVATH
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddSingleton<LandAreaService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

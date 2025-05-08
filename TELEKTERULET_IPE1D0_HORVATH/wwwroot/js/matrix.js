@@ -34,7 +34,7 @@
     function parseMatrixInput(input) {
         const rows = input.split("\n").filter(row => row.trim() !== "");
         const matrix = rows.map(row => {
-            const values = row.split("/\s+/").map(value => parseInt(value.trim()));
+            const values = row.split(/\s+/).map(value => parseInt(value.trim()));
             if (values.some(isNaN)) {
                 throw new Error("Invalid matrix format.");
             }
@@ -47,15 +47,19 @@
         return matrix.every(row => row.lenght === matrix.lenght);
     }
 
-    async function SendtoBackend(matrix, epszilon) {
+    async function SendtoBackend(matrix, epsilon) {
         try {
             const response = await fetch(apiurl, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
                 },
-                body: JSON.stringify({ matrix, epszilon })
+                body: JSON.stringify({ matrix: matrix, epszilon: epsilon })
             });
+            //const asd = await response.text();
+            //console.log(asd);
+            //const vmi = JSON.parse(asd);
+            //console.log(vmi);
             if (!response.ok) {
                 throw new Error("Network response was not ok");
             }
@@ -70,14 +74,14 @@
     function displayResult(result) {
         resultarea.innerHTML =
             `<p><strong>Epszilon érték:</strong> ${result.epszilon}</p>
-            <p><strong>Legnagyobb összefüggő terület mérete:</strong> ${result.MaxAreaSize} cella</p>`;
-        displayMatrix(result.matrix, result.largestareaindexes);
+            <p><strong>Legnagyobb összefüggő terület mérete:</strong> ${result.maxAreaSize} cella</p>`;
+        displayMatrix(result.matrix, result.maxArea);
     }
 
     function displayMatrix(matrix, largestareaindexes)
     {
         const tableHtml = document.createElement('table');
-        
+        tableHtml.className = 'matrix-table';
 
         const areaMap = {};
         largestareaindexes.forEach(index => {
@@ -104,5 +108,9 @@
         }
         matrixvisualization.innerHTML = '';
         matrixvisualization.appendChild(tableHtml);
+    }
+    function showError(message) {
+        resultarea.innerHTML = `<div class="alert alert-danger">${message}</div>`;
+        matrixvisualization.innerHTML = '';
     }
 });

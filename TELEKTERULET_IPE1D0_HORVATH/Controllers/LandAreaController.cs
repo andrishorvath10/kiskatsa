@@ -24,9 +24,18 @@ namespace TELEKTERULET_IPE1D0_HORVATH.Controllers
             }
             for (int i = 0; i < matrixRequest.Matrix.Length; i++)
             {
-                if (matrixRequest.Matrix[i] ==null || matrixRequest.Matrix[i].Length!=matrixRequest.Matrix.Length)
+                for (int j = 0; j < matrixRequest.Matrix[i].Length; j++)
                 {
-                    return BadRequest("Matrix needs to be n*n");
+                    Console.Write(matrixRequest.Matrix[i][j] + "\t");
+                }
+                Console.WriteLine();
+            }
+            int n = matrixRequest.Matrix.Length;
+            for (int i = 0; i < n; i++)
+            {
+                if (matrixRequest.Matrix[i] == null || matrixRequest.Matrix[i].Length != n)
+                {
+                    return BadRequest("A mátrixnak négyzetes formájúnak (n×n) kell lennie.");
                 }
             }
             var result = _landAreaService.CalculateLargestArea(matrixRequest);

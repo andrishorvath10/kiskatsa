@@ -1,0 +1,12 @@
+﻿matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+largest-area {
+    background-color: lightgreen;
+    color: greenyellow;
+}
+matrix-visualization{
+    margin-top: 20px;
+    overflow-x: auto;
+}
