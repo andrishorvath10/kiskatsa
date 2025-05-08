@@ -48,7 +48,23 @@
     }
 
     async function SendtoBackend(matrix, epszilon) {
-        
+        try {
+            const response = await fetch(apiurl, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ matrix, epszilon })
+            });
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            const result = await response.json();
+            displayResult(result);
+        }
+        catch (error) {
+            showError("An error occurred while sending the request: " + error.message);
+        }
     }
 
     function displayResult(result) {
