@@ -68,7 +68,10 @@
     }
 
     function displayResult(result) {
-        
+        resultarea.innerHTML =
+            `<p><strong>Epszilon érték:</strong> ${result.epszilon}</p>
+            <p><strong>Legnagyobb összefüggő terület mérete:</strong> ${result.MaxAreaSize} cella</p>`;
+        displayMatrix(result.matrix, result.largestareaindexes);
     }
 
     function displayMatrix(matrix, largestareaindexes) {
