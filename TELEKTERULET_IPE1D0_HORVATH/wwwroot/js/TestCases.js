@@ -61,3 +61,19 @@
         description: "A külső és belső terület élesen elválik, a külső terület nagyobb"
     }
 ];
+function loadTestCase(index) {
+    const testCase = testCases[index];
+    if (!testCase) return;
+
+    document.getElementById('matrixinput').value = testCase.matrix;
+    document.getElementById('epsziloninput').value = testCase.epsilon;
+
+    const resultArea = document.getElementById('resultArea');
+    resultArea.innerHTML =`
+        <div class="alert alert-info">
+            <h5>${testCase.name}</h5>
+            <p><strong>Leírás:</strong> ${testCase.description}</p>
+            <p><strong>Várt legnagyobb terület:</strong> ${testCase.expectedArea} cella</p>
+        </div>
+        `;
+}
