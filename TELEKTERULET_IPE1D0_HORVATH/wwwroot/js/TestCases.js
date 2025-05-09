@@ -77,3 +77,25 @@ function loadTestCase(index) {
         </div>
         `;
 }
+
+function initializeTestCases() {
+    const testSelector = document.createElement('div');
+    testSelector.className = 'mb-3';
+    testSelector.innerHTML =` 
+        <label for="testCaseSelect" class="form-label">Teszt esetek:</label>
+        <select class="form-select" id="testCaseSelect">
+            <option value="">Válassz teszt esetet...</option>
+            ${testCases.map((test, index) => <option value="${index}">${test.name}</option>).join('')}
+        </select>
+        `;
+
+    const matrixInputContainer = document.querySelector('label[for="matrixinput"]').parentNode;
+    matrixInputContainer.parentNode.insertBefore(testSelector, matrixInputContainer);
+
+    document.getElementById('testCaseSelect').addEventListener('change', function () {
+        const selectedIndex = this.value;
+        if (selectedIndex !== '') {
+            loadTestCase(parseInt(selectedIndex));
+        }
+    });
+}
