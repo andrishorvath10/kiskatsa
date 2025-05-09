@@ -1,12 +1,18 @@
-﻿matrix-table {
+﻿.matrix-table {
     width: 100%;
     border-collapse: collapse;
 }
-largest-area {
+    .matrix-table td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        min-width: 40px;
+    }
+.largest-area {
     background-color: lightgreen;
     color: greenyellow;
 }
-matrix-visualization{
+.matrix-visualization{
     margin-top: 20px;
     overflow-x: auto;
 }
