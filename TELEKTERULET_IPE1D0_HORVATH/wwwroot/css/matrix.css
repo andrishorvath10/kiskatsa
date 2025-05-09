@@ -10,9 +10,10 @@
     }
 .largest-area {
     background-color: lightgreen;
-    color: greenyellow;
+    color: black;
 }
 .matrix-visualization{
     margin-top: 20px;
     overflow-x: auto;
+    display: grid;
 }
