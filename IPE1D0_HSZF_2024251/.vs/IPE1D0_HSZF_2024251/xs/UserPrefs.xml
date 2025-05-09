@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{D0CA79C1-0580-459F-B79F-75EDE12F906D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IPE1D0_HSZF_2024251.Console/Program.cs">
+    <Files>
+      <File FileName="IPE1D0_HSZF_2024251.Persistence.MsSql/CarRepository.cs" Line="26" Column="1" />
+      <File FileName="IPE1D0_HSZF_2024251.Persistence.MsSql/Queries.cs" Line="44" Column="10" />
+      <File FileName="IPE1D0_HSZF_2024251.Console/Program.cs" Line="333" Column="1" />
+      <File FileName="IPE1D0_HSZF_2024251.Persistence.MsSql/TripsRepository.cs" Line="1" Column="1" />
+      <File FileName="IPE1D0_HSZF_2024251.Persistence.MsSql/TripManager.cs" Line="90" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IPE1D0_HSZF_2024251">
+            <Node name="Infrastructure" expanded="True" />
+            <Node name="Presentation" expanded="True">
+              <Node name="IPE1D0_HSZF_2024251.Console" expanded="True">
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.IPE1D0__HSZF__2024251.Console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

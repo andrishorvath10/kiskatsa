@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Telek Terület";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Telek Terület Elemző</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Bemeneti adatok</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="matrixInput" class="form-label">Mátrix (n×n formátumban, soronként szóközzel elválasztva):</label>
+                        <textarea class="form-control" id="matrixInput" rows="10" placeholder="Pl:&#10;1 2 3&#10;4 5 6&#10;7 8 9"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="epsilonInput" class="form-label">Epszilon érték:</label>
+                        <input type="number" class="form-control" id="epsilonInput" value="1">
+                    </div>
+                    <button class="btn btn-primary" id="calculateBtn">Terület kiszámítása</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Eredmény</h4>
+                </div>
+                <div class="card-body">
+                    <div id="resultArea" class="mb-3">
+                        <p>A számítás eredménye itt jelenik meg...</p>
+                    </div>
+                    <div id="matrixVisualization" class="matrix-visualization"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/test-cases.js"></script>
+    <script src="~/js/script.js"></script>
+}

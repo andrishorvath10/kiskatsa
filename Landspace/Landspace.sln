@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Landspace", "Landspace\Landspace.csproj", "{8BEDC5BF-18A0-4D79-AA12-E0FC0217A559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BEDC5BF-18A0-4D79-AA12-E0FC0217A559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEDC5BF-18A0-4D79-AA12-E0FC0217A559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEDC5BF-18A0-4D79-AA12-E0FC0217A559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEDC5BF-18A0-4D79-AA12-E0FC0217A559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0315559F-8C5C-49F0-B931-3DA1A33EF20A}
+	EndGlobalSection
+EndGlobal

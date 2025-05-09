@@ -1,0 +1,21 @@
+.matrix-visualization {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.matrix-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.matrix-table td {
+    border: 1px solid #dee2e6;
+    text-align: center;
+    padding: 10px;
+    min-width: 40px;
+}
+
+.largest-area {
+    background-color: #d1e7dd;
+    color: #0f5132;
+} 

@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{8BEDC5BF-18A0-4D79-AA12-E0FC0217A559}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Landspace/Program.cs">
+    <Files>
+      <File FileName="Landspace/Program.cs" Line="28" Column="1" />
+      <File FileName="Landspace/Views/_ViewImports.cshtml" Line="5" Column="1" />
+      <File FileName="Landspace/Controllers/LandAreaController.cs" Line="26" Column="22" />
+      <File FileName="Landspace/Models/LandAreaRequest.cs" Line="8" Column="3" />
+      <File FileName="Landspace/Models/LandAreaResponse.cs" Line="22" Column="3" />
+      <File FileName="Landspace/Services/LandAreaService.cs" Line="70" Column="18" />
+      <File FileName="Landspace/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="Landspace/Views/Shared/_Layout.cshtml.css" Line="1" Column="1" />
+      <File FileName="Landspace/Views/Shared/_Layout.cshtml" Line="8" Column="78" />
+      <File FileName="Landspace/Views/Home/index.cshtml" Line="34" Column="40" />
+      <File FileName="Landspace/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Landspace/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Landspace/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Landspace/wwwroot/css/matrix.css" Line="21" Column="3" />
+      <File FileName="Landspace/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="Landspace/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="Landspace/wwwroot/js/script.js" Line="89" Column="89" />
+      <File FileName="Landspace/appsettings.json" Line="1" Column="1" />
+      <File FileName="Landspace/wwwroot/js/test-cases.js" Line="99" Column="62" />
+      <File FileName="Landspace/.gitignore" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Landspace" expanded="True">
+            <Node name="Landspace">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Landspace PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

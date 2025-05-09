@@ -17,6 +17,7 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
 
         private readonly ICustomerRepository _customerRepository;
         private readonly ITripsRepository _tripRepository;
+        private readonly ICarRepository _carRepository;
 
         public TripManager(ICustomerRepository customerRepository, ITripsRepository tripRepository)
         {
@@ -69,6 +70,25 @@ namespace IPE1D0_HSZF_2024251.Persistence.MsSql
                 Distance = distance
             });
         }
+        public async Task CompleteTrip(int tripId)
+        {
+            var trip = await _tripRepository.GetTripByIdAsync(tripId);
+            if (trip == null)
+            {
+                Console.WriteLine("Trip not found.");
+                return;
+            }
+
+            var car = await _carRepository.GetCarByIdAsync(trip.CarId);
+            if (car != null)
+            {
+                car.DistanceSinceLastMaintenance += trip.Distance;
+                await _carRepository.UpdateCarAsync(car);
+
+                await CheckCarForMaintenance(car.Id);
+            }
+        }
+
     }
 
 
