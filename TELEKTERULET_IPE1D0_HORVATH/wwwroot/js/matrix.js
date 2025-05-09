@@ -4,6 +4,12 @@
     const calculatebutton = document.getElementById("calculatebutton");
     const resultarea = document.getElementById("resultarea");
     const matrixvisualization = document.getElementById("matrixvisualization");
+    
+    if (typeof initializeTestCases === 'function') {
+        console.log("menjmar");
+        initializeTestCases();
+    }
+
     const apiurl = "api/landarea/calculate";
 
     calculatebutton.addEventListener("click", async function () {
@@ -44,7 +50,7 @@
     }
 
     function isValidMatrix(matrix) {
-        return matrix.every(row => row.lenght === matrix.lenght);
+        return matrix.every(row => row.length === matrix.length);
     }
 
     async function SendtoBackend(matrix, epsilon) {
@@ -56,10 +62,6 @@
                 },
                 body: JSON.stringify({ matrix: matrix, epszilon: epsilon })
             });
-            //const asd = await response.text();
-            //console.log(asd);
-            //const vmi = JSON.parse(asd);
-            //console.log(vmi);
             if (!response.ok) {
                 throw new Error("Network response was not ok");
             }
